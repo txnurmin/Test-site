@@ -2,11 +2,131 @@
 
 <html>
 	<head>
-		<title>My test site</title>
+		<title>My HTML cheat sheet</title>
 	</head>
 
 	<body>
+		<a href="blog.html">Go to blog</a>
+		<hr>
+		<!--Headings-->
+		<h1>Heading 1</h1>
+		<h2>Heading 2</h2>
+		<h3>Heading 3</h3>
+		<h4>Heading 4</h4>
+		<h5>Heading 5</h5>
+		<h6>Heading 6</h6>
+
+		<!--Paragraphs-->
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In <a href="http://www.google.com">debitis</a>, assumenda ex magnam molestiae, mollitia reiciendis accusantium voluptates id odit nesciunt, error odio? Beatae pariatur dolore accusantium? Autem, ut necessitatibus.</p>
+		<p>Lorem ipsum dolor sit amet consectetur, <strong>adipisicing elit.</strong> Fuga dolore commodi tempora distinctio? <em>Iste provident sint id adipisci.</em> Molestias cumque placeat doloremque quidem exercitationem aperiam quae alias dolor. Quidem, ut?</p>
+		<p>Lorem ipsum dolor sit amet consectetur <a href="http://www.google.com" target="_blank">adipisicing</a> elit. Suscipit qui ducimus quia ut quas porro exercitationem, dolorum beatae quos, laborum voluptatibus quaerat sint distinctio fugit libero, explicabo vero assumenda repellat.</p>
+	
+		<!--Lists-->
+		<ul>
+			<li>List element 1</li>
+			<li>List element 2</li>
+			<li>List element 3</li>
+		</ul>
+		<ol>
+			<li>List element 1</li>
+			<li>List element 2</li>
+			<li>List element 3</li>
+		</ol>
+
+		<!--Tables-->
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Address</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Tuomas</td>
+					<td>27</td>
+					<td>Mannerheimintie 48</td>
+				</tr>
+				<tr>
+					<td>Pekka</td>
+					<td>45</td>
+					<td>Mannerheimintie 1</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<br>
+		<hr>
+		<br>
+		<!--Forms-->
+		<form>
+			<label>First name</label>
+			<input type="text" name="first-name">
+			<label>Last name</label>
+			<input type="text" name="last-name">
+			<div>
+				<label>First name</label>
+				<input type="text" name="first-name">
+			</div>
+			<div>
+				<label>Last name</label>
+				<input type="text" name="last-name" placeholder="Enter last name">
+			</div>
+			<div>
+				<label>Email</label>
+				<input type="email" name="email">
+			</div>
+			<br>
+			<div>
+				<label>Message</label>
+				<textarea type="message"></textarea>
+			</div>
+			<br>
+			<div>
+				<label>Gender</label>
+				<select name="gender">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="nonbinary">Non-binary</option>
+				</select>
+			</div>
+			<br>
+			<div>
+				<label>Age</label>
+				<input type="number" name="age" value="30">
+			</div>
+			<br>
+			<div>
+				<label>Birthday</label>
+				<input type="date" name="birthday">
+			</div>
+			<br>
+			<div>
+				<input type="submit" name="submit" value="Submit">
+			</div>
+		</form>
+		<br>
+		<!--Another button that doesn't do anything without Javascript-->
+		<button>OK</button>
+		<br>
 		
+		<!--Images--> 
+		<a href="sample_img.jpg">
+			<img src="sample_img.jpg" alt="Sample image" width=300>
+		</a>
+
+		<!--Quotations-->
+		<blockquote cite="Something">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+		</blockquote>
+		<p>
+			The <abbr title="World Wide Web">WWW</abbr> is awesome. 
+		</p>
+		<p>
+			<cite>Nudging cooperation</cite> by K.B. and T.N.
+		</p>
+		<div style="margin-top:600px"></div>
 	</body>
 
 </html>
